@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Div e span</title>
+
+        <style type="text/CSS">
+            
+            #topo {
+                background: navy;
+            }
+
+            #conteudo {
+                background: red;
+            }
+
+            #rodape {
+                background-color: green;
+            }
+
+            .produto {
+                background: gray;
+                margin: 10px;
+            }
+
+            .azul{
+                color: blue;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="topo"> <!--Divs organizam como os produtos aparecem no site-->
+
+            <img src="imagens/Amazon_Prime_logo.png" width="200">
+            <ul>
+                 <li>Home</li>
+                 <li>Produtos</li>
+                 <li>Contato</li>
+            </ul>
+
+        </div>
+
+        <div id="conteudo">
+
+            <div class="produto">
+                Produto 1
+            </div>
+
+            <div class="produto">
+                Produto 2
+            </div>
+
+            <div class="produto">
+                Produto 3
+            </div>
+
+        </div>
+
+        <!--span = elemento do tipo in line, spam agrupa elementos linha a linha-->
+            
+        <div id="rodape">
+
+            Todos os <p class="azul">direitos</p> reservados
+
+        </div>
+
+    </body>
+</html>
