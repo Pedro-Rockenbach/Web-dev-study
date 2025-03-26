@@ -49,3 +49,36 @@ h1+p {
 h1~p {
     color: pink;
 }
+
+/****** heranca e especificidade ***/
+
+* {
+    border: 1px solid blueviolet;
+    color: yellow;
+}
+
+body {
+    color : ;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    /*border: 3px solid red;*/
+    
+}
+
+p {
+    color: blue !important;
+}
+
+p {
+    color: pink;
+}
+
+/* Se um seletor for mais especifico que outro a regra mais especifica sera aplicada */
+
+h2 {
+    color: darkblue;
+}
+
+h2.verde {
+    color: green;
+}
