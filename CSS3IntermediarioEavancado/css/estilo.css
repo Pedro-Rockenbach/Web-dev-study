@@ -15,10 +15,10 @@ h1 {
 .verde {
     color: green;
 }*/
-
+/*
 p.verde {
     color: green;
-}
+}*/
 
 /******** Seletor De id ********/
 /*
@@ -27,58 +27,100 @@ p.verde {
 }*/
 
 /******** Seletor De filho ********/
+/*
 li>a {
     color: orange;
     text-decoration: none;
-}
+}*/
 
 /******** Seletor De descendente ********/
-li a {  /*seleciona links que estejam dentro de li*/
+/*
+li a {  /*seleciona links que estejam dentro de li*/ /*
     color: green;
-}
+}*/
 
 /******** Seletor De irmao adjacente ********/
-
+/*
 h1+p {
     color: red;   /*formato o de baixo*/
-} 
+
 
 
 /******** Seletor De irmao geral ********/
-
+/*
 h1~p {
     color: pink;
-}
+}*/
 
 /****** heranca e especificidade ***/
 
-* {
+/* * {
     border: 1px solid blueviolet;
     color: yellow;
-}
+} */
 
+/*
 body {
     color: blue;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     /*border: 3px solid red;*/
     
-}
 
-p {
+/*p {
     color: blue !important;
-}
-
+}*/
+/*
 p {
     color: pink;
-}
+}*/
 
 /* Se um seletor for mais especifico que outro a regra mais especifica sera aplicada */
 
-h2 {
+/*h2 {
     color: darkblue;
+}*/
+
+/*h2.verde {
+    color: green;
+}
+*/
+
+/********** barra de navegacao vertical *********/
+/*
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-h2.verde {
-    color: green;
+li {
+    padding: 5px 20px;
+    background: url('../css/imagens/seta.png') no-repeat left center;
+}
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    /*border: 1px solid red;*/
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url('../css/imagens/menu.png') no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: #fff;
 }
